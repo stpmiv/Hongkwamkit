@@ -4,7 +4,7 @@ import { AboutPage } from '../about/about';
 import { ComunityPage } from '../comunity/comunity';
 import { GalleryPage } from '../gallery/gallery';
 import { SlidesPage } from '../slides/slides';
-
+import { CustomersPage } from '../customers/customers';
 @Component({
   selector: 'page-home',
   templateUrl: 'home.html'
@@ -25,5 +25,8 @@ gotogallery(){
 }
 gotoslides(){
   this.navCtrl.push(SlidesPage);
+}
+gotocustomers(){
+  this.navCtrl.push(CustomersPage);
 }
 }
