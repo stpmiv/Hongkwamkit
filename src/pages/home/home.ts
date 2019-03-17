@@ -3,6 +3,7 @@ import { NavController } from 'ionic-angular';
 import { AboutPage } from '../about/about';
 import { ComunityPage } from '../comunity/comunity';
 import { GalleryPage } from '../gallery/gallery';
+import { SlidesPage } from '../slides/slides';
 
 @Component({
   selector: 'page-home',
@@ -21,5 +22,8 @@ gotocomunity(){
 }
 gotogallery(){
   this.navCtrl.push(GalleryPage);
+}
+gotoslides(){
+  this.navCtrl.push(SlidesPage);
 }
 }

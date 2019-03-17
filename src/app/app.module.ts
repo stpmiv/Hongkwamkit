@@ -9,13 +9,15 @@ import { HomePage } from '../pages/home/home';
 import { AboutPage} from '../pages/about/about';
 import { ComunityPage} from '../pages/comunity/comunity';
 import { GalleryPage} from '../pages/gallery/gallery';
+import { SlidesPage} from '../pages/slides/slides';
 @NgModule({
   declarations: [
     MyApp,
     HomePage,
     AboutPage,
     ComunityPage,
-    GalleryPage
+    GalleryPage,
+    SlidesPage
   ],
   imports: [
     BrowserModule,
@@ -27,7 +29,8 @@ import { GalleryPage} from '../pages/gallery/gallery';
     HomePage,
     AboutPage,
     ComunityPage,
-    GalleryPage
+    GalleryPage,
+    SlidesPage
   ],
   providers: [
     StatusBar,
